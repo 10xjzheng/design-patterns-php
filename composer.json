@@ -1,0 +1,21 @@
+{
+    "name": "10xjzheng/design-patterns-php",
+    "description": "Sample code for design patterns",
+    "authors": [
+        {
+            "name": "10xjzheng",
+            "email": "10xjzheng@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "designPatterns\\": ""
+        }
+    }
+}
