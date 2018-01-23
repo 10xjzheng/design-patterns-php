@@ -11,7 +11,7 @@ namespace designPatterns\structural\bridge;
 
 class RefinedAbstraction extends Abstraction
 {
-    public function operation(ImplementorInterface $imp)
+    public function operation(InterfaceImplementor $imp)
     {
         return $imp->operationImp();
     }

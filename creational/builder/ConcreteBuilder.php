@@ -9,7 +9,7 @@
 namespace designPatterns\creational\builder;
 
 
-class ConcreteBuilder implements BuilderInterface
+class ConcreteBuilder implements InterfaceBuilder
 {
     /**
      * @var Product $product

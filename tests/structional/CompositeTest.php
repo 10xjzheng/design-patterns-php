@@ -7,6 +7,7 @@ use PHPUnit\Framework\TestCase;
 
 /**
  * 组合模式测试类
+ * ```
  * COMPOSITE（组合） — 对象结构型模式
  * 将对象组合成树形结构以表示“部分-整体”的层次结构。Composite使得用户对单个对象和组合对象的使用具有一致性。
  * ```

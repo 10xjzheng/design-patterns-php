@@ -13,6 +13,7 @@ use PHPUnit\Framework\TestCase;
 
 /**
  * 享元模式测试类
+ * ```
  * FLYWEIGHT（享元） — 对象结构型模式
  * 运用共享技术有效地支持大量细粒度的对象。
  * ```

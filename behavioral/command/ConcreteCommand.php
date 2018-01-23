@@ -9,7 +9,7 @@
 namespace designPatterns\Behavioral\Command;
 
 
-class ConcreteCommand implements CommandInterface
+class ConcreteCommand implements InterfaceCommand
 {
     private $console;
 

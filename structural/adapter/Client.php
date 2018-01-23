@@ -11,10 +11,10 @@ class Client
     /**
      * client只接受TargetInterface，但我们需要用到Adaptee的功能，于是我们用
      * Adapter实现TargetInterface并适配了Adaptee
-     * @param TargetInterface $target
+     * @param InterfaceTarget $target
      * @return mixed
      */
-    public function getResponse(TargetInterface $target)
+    public function getResponse(InterfaceTarget $target)
     {
         return $target->request();
     }

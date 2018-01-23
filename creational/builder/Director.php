@@ -12,10 +12,10 @@ namespace designPatterns\creational\builder;
 class Director
 {
     /**
-     * @param BuilderInterface $builder
+     * @param InterfaceBuilder $builder
      * @return Product
      */
-   public function buildProduct(BuilderInterface $builder): Product
+   public function buildProduct(InterfaceBuilder $builder): Product
    {
        $builder->buildBody();
        $builder->buildPart1();

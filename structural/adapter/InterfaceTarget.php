@@ -6,7 +6,7 @@ namespace designPatterns\structural\adapter;
  * Date: 2018/1/19
  * Time: 15:05
  */
-Interface TargetInterface
+Interface InterfaceTarget
 {
     public function request();
 }

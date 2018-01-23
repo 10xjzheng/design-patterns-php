@@ -9,7 +9,7 @@
 namespace designPatterns\structural\bridge;
 
 
-class ConcreteImplementorB implements ImplementorInterface
+class ConcreteBImplementor implements InterfaceImplementor
 {
     public function operationImp()
     {

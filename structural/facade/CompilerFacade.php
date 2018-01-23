@@ -9,7 +9,7 @@
 namespace designPatterns\structural\facade;
 
 
-class CompilerFacade implements FacadeInterface
+class CompilerFacade implements InterfaceFacade
 {
     protected $parser;
 

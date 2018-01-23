@@ -1,7 +1,7 @@
 <?php
 namespace designPatterns\Behavioral\Command;
 
-interface CommandInterface
+interface InterfaceCommand
 {
     public function execute();
 }

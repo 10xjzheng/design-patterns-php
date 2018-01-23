@@ -15,6 +15,7 @@ use PHPUnit\Framework\TestCase;
 
 /**
  * 代理模式测试类
+ * ```
  * PROXY（代理） — 对象结构型模式
  * 运用共享技术有效地支持大量细粒度的对象。
  * ```

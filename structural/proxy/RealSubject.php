@@ -9,7 +9,7 @@
 namespace designPatterns\structural\proxy;
 
 
-class RealSubject implements SubjectInterface
+class RealSubject implements InterfaceSubject
 {
     public function request()
     {

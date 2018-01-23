@@ -11,6 +11,7 @@ use designPatterns\structural\facade\CompilerFacade;
 use PHPUnit\Framework\TestCase;
 /**
  * 外观模式测试类
+ * ```
  * FACADE（外观） — 对象结构型模式
  * 为子系统中的一组接口提供一个一致的界面，Facade模式定义了一个高层接口，这个接口使得这一子系统更加容易使用。
  * ```

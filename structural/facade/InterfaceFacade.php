@@ -6,6 +6,6 @@ namespace designPatterns\structural\facade;
  * Date: 2018/1/20
  * Time: 14:10
  */
-interface FacadeInterface {
+interface InterfaceFacade {
     public function compile($input);
 }

@@ -9,11 +9,11 @@
 namespace designPatterns\structural\proxy;
 
 
-class Proxy implements SubjectInterface
+class Proxy implements InterfaceSubject
 {
     protected $subject;
 
-    public function __construct(SubjectInterface $subject)
+    public function __construct(InterfaceSubject $subject)
     {
         $this->subject = $subject;
     }

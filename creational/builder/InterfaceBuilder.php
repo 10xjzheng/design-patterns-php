@@ -9,7 +9,7 @@
 namespace designPatterns\creational\builder;
 
 
-Interface BuilderInterface
+Interface InterfaceBuilder
 {
     public function buildBody();
     public function buildPart1();

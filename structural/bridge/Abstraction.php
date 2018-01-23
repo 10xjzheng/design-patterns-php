@@ -11,5 +11,5 @@ namespace designPatterns\structural\bridge;
 
 abstract class Abstraction
 {
-    public abstract function operation(ImplementorInterface $imp);
+    public abstract function operation(InterfaceImplementor $imp);
 }

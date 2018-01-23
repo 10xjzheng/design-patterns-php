@@ -10,7 +10,7 @@ namespace designPatterns\structural\adapter;
 
 
 
-class Target implements TargetInterface
+class Target implements InterfaceTarget
 {
     public function request()
     {

@@ -7,7 +7,7 @@ namespace designPatterns\structural\adapter;
  * Date: 2018/1/19
  * Time: 15:05
  */
-class Adapter implements TargetInterface
+class Adapter implements InterfaceTarget
 {
     public $adaptee;
 

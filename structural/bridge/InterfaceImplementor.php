@@ -9,7 +9,7 @@
 namespace designPatterns\structural\bridge;
 
 
-Interface ImplementorInterface
+Interface InterfaceImplementor
 {
     public function operationImp();
 }

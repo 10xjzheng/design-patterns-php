@@ -1,19 +1,12 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Administrator
- * Date: 2018/1/20
- * Time: 17:43
- */
-
 namespace designPatterns\Behavioral\Command;
 
 
-class Invoker implements CommandInterface
+class Invoker implements InterfaceCommand
 {
     private $command;
 
-    public function setCommand(CommandInterface $command)
+    public function setCommand(InterfaceCommand $command)
     {
         $this->command = $command;
     }
