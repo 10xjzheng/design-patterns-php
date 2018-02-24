@@ -8,6 +8,16 @@ namespace designPatterns\creational\prototype;
  */
 abstract class ProtoType
 {
-    public $key;
+    private $key;
     public abstract function __clone();
+
+    public function getKey()
+    {
+        return $this->key;
+    }
+
+    public function setKey($key)
+    {
+        return $this->key = $key;
+    }
 }

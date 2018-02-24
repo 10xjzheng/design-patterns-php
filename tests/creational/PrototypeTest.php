@@ -28,16 +28,16 @@ class PrototypeTest extends TestCase
         $client = new Client();
 
         $concretePrototype1 = new ConcreteProtoType1();
-        $concretePrototype1->key = 'ConcreteProtoType1';
+        $concretePrototype1->setKey('ConcreteProtoType1');
         //克隆ConcreteProtoType1
         $clone1 = $client->operation($concretePrototype1);
-        $this->assertEquals('ConcreteProtoType1', $clone1->key);
+        $this->assertEquals('ConcreteProtoType1', $clone1->getKey());
 
         $concretePrototype2 = new ConcreteProtoType2();
-        $concretePrototype2->key = 'ConcreteProtoType2';
+        $concretePrototype2->setKey('ConcreteProtoType2');
         //克隆ConcreteProtoType2
         $clone2 = $client->operation($concretePrototype2);
-        $this->assertEquals('ConcreteProtoType2', $clone2->key);
+        $this->assertEquals('ConcreteProtoType2', $clone2->getKey());
     }
 
 }
