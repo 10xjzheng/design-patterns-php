@@ -1,4 +1,4 @@
-# 设计模式--php代码示例（《设计模式GOF》笔记）博客地址（https://www.jianshu.com/u/4ff189e8d8ac）
+# 设计模式--php代码示例（《设计模式GOF》笔记）博客地址（https://www.jianshu.com/nb/20239292）
 
 ## 1 创建型模式（creational）
 
